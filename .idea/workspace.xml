@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="367cc588-ce4b-4310-ac3e-eb977f7bf9ec" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GeoStatEisti" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dash/templates/dash/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8320">
+              <caret line="993" selection-start-line="993" selection-end-line="993" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/templates/dash/dash-base-temp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/templates/dash/maps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dark</find>
+      <find>#5a5c69;</find>
+      <find>border-left-primary</find>
+      <find>text-g</find>
+      <find>text-dark-800</find>
+      <find>h6</find>
+      <find>prof</find>
+      <find>CARD-BODY</find>
+      <find>sidebar-brand-text</find>
+      <find>card-body</find>
+      <find>fa-4x</find>
+      <find>col-auto</find>
+      <find>exampleModalLabel</find>
+      <find>divide</find>
+      <find>dir</find>
+      <find>text-gray-300</find>
+      <find>map</find>
+      <find>xaxis_pau</find>
+      <find>y_hat_p3_pau</find>
+      <find>xaxis_cergy_enrollment_cergy</find>
+      <find>yaxis_cergy_enrollment_cergy</find>
+      <find>_pau</find>
+      <find>yaxis_cergy_enrollment_pau</find>
+      <find>y_hat_p1_enrollment_cergy</find>
+      <find>y_1314_company_counts</find>
+      <find>_program_</find>
+      <find>_student_</find>
+      <find>Pie</find>
+      <find>y_1314_Renu_labels</find>
+      <find>body</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>text-gray-800</replace>
+      <replace>#000000;</replace>
+      <replace>fa-3x</replace>
+      <replace>',</replace>
+      <replace>text-gray-100</replace>
+      <replace>y_hat_p3_cergy</replace>
+      <replace>xaxis_cergy_enrollment_pau</replace>
+      <replace>y_hat_p3_enrollment_pau</replace>
+      <replace>xaxis_enrollment_pau</replace>
+      <replace>xaxis_enrollment_cergy</replace>
+      <replace>yaxis_enrollment_cergy</replace>
+      <replace>_cergy</replace>
+      <replace>yaxis_enrollment_pau</replace>
+      <replace>_company_</replace>
+      <replace>pie</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dash/forms.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/profile.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/password_reset.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/map.html" />
+        <option value="$PROJECT_DIR$/login/admin.py" />
+        <option value="$PROJECT_DIR$/login/static/login/js/home_particle.js" />
+        <option value="$PROJECT_DIR$/login/static/login/css/home_particle.css" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/import.html" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/import_export/resources.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/import_export/admin.py" />
+        <option value="$PROJECT_DIR$/dash/signals.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/piv.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-charts.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-fiter.html" />
+        <option value="$PROJECT_DIR$/dash/static/dash/chartjs/js/Chart.min.js" />
+        <option value="$PROJECT_DIR$/dash/templates/piv/piv_intern.html" />
+        <option value="$PROJECT_DIR$/dash/templates/piv/piv_std.html" />
+        <option value="$PROJECT_DIR$/dash/templates/piv/piv_clg.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/visu.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/contact.html" />
+        <option value="$PROJECT_DIR$/dash/admin.py" />
+        <option value="$PROJECT_DIR$/dash/models.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/visu_std.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/visu _clg.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/visu_intern.html" />
+        <option value="$PROJECT_DIR$/GeoStatEisti/settings.py" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-pau.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-enrolment-pau.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-enrolment-cergy.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-page.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-chart-intern.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-renumeration.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-top-recruiters.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-cergy.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/graph.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/regression.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-cergy.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/visu_clg.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/table.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/tables_clg.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/tables_intern.html" />
+        <option value="$PROJECT_DIR$/dash/templates/chart-script/dash-chart.html" />
+        <option value="$PROJECT_DIR$/dash/static/dash/css/sb-admin-2.css" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/password.html" />
+        <option value="$PROJECT_DIR$/dash/urls.py" />
+        <option value="$PROJECT_DIR$/dash/views.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/maps.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/dash-base-temp.html" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/home.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="814" />
+    <option name="width" value="975" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GeoStatEisti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoStatEisti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoStatEisti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoStatEisti" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoStatEisti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoStatEisti" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoStatEisti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoStatEisti" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dash/templates/chart-script" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\GeoStatEisti\dash\templates" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeoStatEisti\Media" />
+      <recent name="C:\Users\Administrator\PycharmProjects\GeoStatEisti\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\MainProject\GeoStatEisti\dash\templates\chart-script" />
+      <recent name="H:\MainProject\GeoStatEisti\dash\static\dash\chartjs\js" />
+      <recent name="H:\MainProject\GeoStatEisti\login\static\login\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python" type="PythonConfigurationType" factoryName="Python">
+      <module name="GeoStatEisti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="GeoStatEisti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\PycharmProjects\GeoStatEisti\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="367cc588-ce4b-4310-ac3e-eb977f7bf9ec" name="Default Changelist" comment="" />
+      <created>1556655931792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556655931792</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5007342" side_tool="true" weight="0.15389696" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992658" visible="true" weight="0.20337197" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.9055482" visible="true" weight="0.09209101" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.094451785" side_tool="true" weight="0.3592645" />
+      <window_info anchor="bottom" id="Structure" order="2" sideWeight="0.5007342" weight="0.15384616" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32394367" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.5007342" side_tool="true" weight="0.15389696" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992658" visible="true" weight="0.20337197" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.9055482" visible="true" weight="0.053087756" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.094451785" side_tool="true" weight="0.3592645" />
+      <window_info anchor="bottom" id="Structure" order="2" sideWeight="0.5007342" weight="0.15384616" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32394367" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dash/static/dash/chartjs/js/jquery.1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-charts.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/piv.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/map.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/map/maps.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/map/map_store_home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/piv/piv_intern.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/piv/piv_std.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/piv/piv_clg.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/dash/chartjs/js/Chart.bundle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/dash/chartjs/js/chartjs-plugin-colorschemes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/folium/utilities.py" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/visu.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/visu _clg.html" />
+    <entry file="file://$PROJECT_DIR$/dash/migrations/0005_auto_20190530_1445.py" />
+    <entry file="file://$PROJECT_DIR$/dash/migrations/0002_country.py" />
+    <entry file="file://$PROJECT_DIR$/dash/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/visu_intern.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/visu_std.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-enrolment-pau.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/sklearn/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/GeoStatEisti/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/dash/chartjs/js/Chart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-enrolment-cergy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-chart-intern.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-renumeration.html" />
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-top-recruiters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-pau.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6410">
+          <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1894">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/regression.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-reg-cergy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter-cergy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="202" column="8" lean-forward="true" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/import.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/visu_clg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3266">
+          <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/tables_clg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/tables_intern.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/dash/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/chart-script/dash-chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3217">
+          <caret line="804" column="16" selection-start-line="804" selection-start-column="16" selection-end-line="804" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8320">
+          <caret line="993" selection-start-line="993" selection-end-line="993" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/maps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/dash-base-temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

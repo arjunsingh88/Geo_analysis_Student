@@ -1,0 +1,51 @@
+Company_Name,Stud_Count,City,Country,Postal_Code,Address,City_1,Coordinates,Latitude,Longitude
+TOTAL - PAU,60,PAU CEDEX,FRANCE,64018,"PAU, 64018, FRANCE",PAU,"Le Pau, Pays du Velay, Haute-Loire, Auvergne-Rhône-Alpes, France métropolitaine, 43430, France",44.9680346,4.2579743
+CGI - COURBEVOIE,33,COURBEVOIE,FRANCE,92400,"COURBEVOIE, 92400, FRANCE",COURBEVOIE,"Courbevoie, Arrondissement de Nanterre, Hauts-de-Seine, Île-de-France, France métropolitaine, 92400, France",48.8953328,2.2561602
+AUBAY,32,BOULOGNE BILLANCOURT,FRANCE,92100,"BOULOGNE, 92100, FRANCE",BOULOGNE,"Centre de secours de Boulogne, 55-57, Rue Gallieni, Boulogne-Billancourt, Hauts-de-Seine, Île-de-France, France métropolitaine, 92100, France",48.83717055,2.247373524
+VAL'EISTI,29,CERGY CEDEX,FRANCE,95011,"CERGY, 95011, FRANCE",CERGY,"Cergy, Pontoise, Val-d'Oise, Île-de-France, France métropolitaine, France",49.0527528,2.0388736
+NOVOSIBIRSK STATE UNIVERSITY,27,NOVOSIBIRSK,RUSSIE,630090,"NOVOSIBIRSK, 630090, RUSSIE",NOVOSIBIRSK,"Новосибирский государственный университет, улица Ляпунова, Академгородок, Советский район, Новосибирск, городской округ Новосибирск, Новосибирская область, СФО, 630000, РФ",54.84613435,83.09421284
+SOCIETE GENERALE,23,PARIS CEDEX 18,FRANCE,75886,"PARIS, 75886, FRANCE",PARIS,"Paris, Rue de Paris, Saint-Brieuc, Côtes-d'Armor, Bretagne, France métropolitaine, 22000, France",48.5021393,-2.737417
+OSAKA PREFECTURE UNIVERSITY,23,OSAKA,JAPAN,599-8531,"OSAKA, 599-8531, JAPAN",OSAKA,"日本化学機械製造本社 (Japan Chemical Engineering & Machinery), 淀川区, 大阪市, 大阪府, 近畿地方, 日本",34.73297625,135.4562325
+SOCIETE GENERALE - PARIS 18,22,PARIS CEDEX 18,FRANCE,75886,"PARIS, 75886, FRANCE",PARIS,"Paris, Rue de Paris, Saint-Brieuc, Côtes-d'Armor, Bretagne, France métropolitaine, 22000, France",48.5021393,-2.737417
+DASSAULT SYSTEMES,21,VELIZY VILLACOUBLAY CEDEX,FRANCE,78140,"VELIZY, 78140, FRANCE",VELIZY,"Vélizy-Villacoublay, Versailles, Yvelines, Île-de-France, France métropolitaine, 78140, France",48.7809496,2.1900052
+TALAN SOLUTIONS,15,PARIS,FRANCE,75116,"PARIS, 75116, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+SOPRA GROUP - LA DEFENSE,15,PARIS LA DEFENSE 12 CEDEX,FRANCE,92937,"PARIS LA, 92937, FRANCE",PARIS LA,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+WAVESTONE,15,PARIS LA DEFENSE,FRANCE,92042,"PARIS LA, 92042, FRANCE",PARIS LA,"Paris, Île-de-France, France métropolitaine, France",48.85881005,2.320031012
+CAPGEMINI TECHNOLOGY SERVICES - TOULOUSE,14,TOULOUSE CEDEX 1,FRANCE,31036,"TOULOUSE, 31036, FRANCE",TOULOUSE,"Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",43.6044622,1.4442469
+CAPGEMINI TECHNOLOGY SERVICES - SURESNES,14,SURESNES CEDEX,FRANCE,92287,"SURESNES, 92287, FRANCE",SURESNES,"Suresnes, Arrondissement de Nanterre, Hauts-de-Seine, Île-de-France, France métropolitaine, 92150, France",48.8710147,2.2252883
+HSBC - PARIS,13,PARIS CEDEX 8,FRANCE,75419,"PARIS, 75419, FRANCE",PARIS,"Paris, Gundershoffen, Haguenau-Wissembourg, Bas-Rhin, Grand Est, France métropolitaine, 67110, France",48.8873911,7.6808525
+SOPRA STERIA - COURBEVOIE,13,COURBEVOIE,FRANCE,92400,"COURBEVOIE, 92400, FRANCE",COURBEVOIE,"Courbevoie, Arrondissement de Nanterre, Hauts-de-Seine, Île-de-France, France métropolitaine, 92400, France",48.8953328,2.2561602
+SOLUTION BI,11,PARIS,FRANCE,75010,"PARIS, 75010, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+AVANADE,11,CHATILLON,FRANCE,92320,"CHATILLON, 92320, FRANCE",CHATILLON,"Châtillon, Antony, Hauts-de-Seine, Île-de-France, France métropolitaine, 92320, France",48.7997756,2.2897124
+THALES COMMUNICATIONS - GENNEVILLIERS,10,ARGENTEUIL,FRANCE,92230,"ARGENTEUIL, 92230, FRANCE",ARGENTEUIL,"Argenteuil, Val-d'Oise, Île-de-France, France métropolitaine, 95100, France",48.9479069,2.2481797
+ATOS - PESSAC,10,PESSAC,FRANCE,33600,"PESSAC, 33600, FRANCE",PESSAC,"Pessac, Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33600, France",44.805615,-0.6308396
+SAFRAN IDENTITY AND SECURITY,10,OSNY,FRANCE,95520,"OSNY, 95520, FRANCE",OSNY,"Osny, Pontoise, Val-d'Oise, Île-de-France, France métropolitaine, 95520, France",49.0660487,2.0614598
+VIVERIS - TOULOUSE,10,TOULOUSE,FRANCE,31400,"TOULOUSE, 31400, FRANCE",TOULOUSE,"Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",43.6044622,1.4442469
+NATIXIS,10,PARIS,FRANCE,75013,"PARIS, 75013, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+BNP PARIBAS,9,PARIS CEDEX 09,FRANCE,75450,"PARIS, 75450, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+MICROPOLE LEVALLOIS 3,9,NANTERRE,FRANCE,92300,"NANTERRE, 92300, FRANCE",NANTERRE,"Arrondissement de Nanterre, Hauts-de-Seine, Île-de-France, France métropolitaine, France",48.8860698,2.224118411
+SOPRA STERIA - LA DEFENSE,9,LA DEFENSE CEDEX,FRANCE,92095,"LA, 92095, FRANCE",LA,"La France, Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Cba., X5000, Argentina",45.3984689,9.1476
+BANQUE DE FRANCE,9,PARIS,FRANCE,75001,"PARIS, 75001, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+DXC TECHNOLOGY,9,PARIS LA DEFENSE CEDEX,FRANCE,92098,"PARIS LA, 92098, FRANCE",PARIS LA,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+BUSINESS & DECISION,9,PARIS,FRANCE,75017,"PARIS, 75017, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+SAP FRANCE - LEVALLOIS,8,LEVALLOIS PERRET,FRANCE,92309,"LEVALLOIS, 92309, FRANCE",LEVALLOIS,"Levallois-Perret, Arrondissement de Nanterre, Hauts-de-Seine, Île-de-France, France métropolitaine, 92300, France",48.892956,2.2881683
+NEUROSOFT - ORTHALIS,8,PAU,FRANCE,64000,"PAU, 64000, FRANCE",PAU,"Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64000, France",43.2957547,-0.3685668
+LA MUTUELLE GNRALE,8,PARIS CEDEX 13,FRANCE,75634,"PARIS, 75634, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+TURBOMECA - BORDES,8,BORDES CEDEX,FRANCE,64511,"BORDES, 64511, FRANCE",BORDES,"Bordes, Yssingeaux, Haute-Loire, Auvergne-Rhône-Alpes, France métropolitaine, 43200, France",45.1893794,4.1163969
+CGI - TOULOUSE,8,TOULOUSE,FRANCE,31000,"TOULOUSE, 31000, FRANCE",TOULOUSE,"Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",43.6044622,1.4442469
+MIF: LA MUTUELLE D'IVRY (LA FRATERNELLE),7,PARIS,FRANCE,75010,"PARIS, 75010, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+CREDIT AGRICOLE CIB - LA DFENSE,7,PARIS LA DFENSE CEDEX,FRANCE,92920,"PARIS LA, 92920, FRANCE",PARIS LA,"Paris, Île-de-France, France métropolitaine, France",48.85881005,2.320031012
+SOPRA STERIA - COLOMIERS,7,COLOMIERS CEDEX,FRANCE,31772,"COLOMIERS CEDEX, 31772, FRANCE",COLOMIERS CEDEX,,43.6138,1.345
+CREDIT AGRICOLE PYRENEES GASCOGNE,7,SERRES CASTET,FRANCE,64121,"SERRES, 64121, FRANCE",SERRES,"Serres, Limoux, Aude, Occitanie, France métropolitaine, 11190, France",42.9466381,2.3236952
+SAGEM DEFENSE SECURITE - ERAGNY SUR OISE,7,ERAGNY SUR OISE,FRANCE,95610,"ERAGNY, 95610, FRANCE",ERAGNY,"Éragny, Pontoise, Val-d'Oise, Île-de-France, France métropolitaine, 95610, France",49.02212455,2.103039724
+SAFRAN HELICOPTER ENGINES - BORDES,7,BORDES,FRANCE,64511,"BORDES, 64511, FRANCE",BORDES,"Bordes, Yssingeaux, Haute-Loire, Auvergne-Rhône-Alpes, France métropolitaine, 43200, France",45.1893794,4.1163969
+BKBIET - BIRLA INSTITUTE OF ENGINEERING AND TECHNOLOGY,7,RAJASTHAN,INDIA,0,"RAJASTHAN, 0, INDIA",RAJASTHAN,"Rajasthan, India",26.8105777,73.7684549
+BOUYGUES TELECOM,7,MEUDON LA FORET CEDEX,FRANCE,92366,"MEUDON LA, 92366, FRANCE",MEUDON LA,"Meudon, Boulogne-Billancourt, Hauts-de-Seine, Île-de-France, France métropolitaine, France",48.8126688,2.2385432
+NOOLINE,7,CERGY,FRANCE,95000,"CERGY, 95000, FRANCE",CERGY,"Cergy, Pontoise, Val-d'Oise, Île-de-France, France métropolitaine, France",49.0527528,2.0388736
+THALES OPTRONIQUE - ELANCOURT,7,ELANCOURT,FRANCE,78990,"ELANCOURT, 78990, FRANCE",ELANCOURT,"Élancourt, Rambouillet, Yvelines, Île-de-France, France métropolitaine, 78990, France",48.7681182,1.949352
+THALES SERVICES - VELIZY VILLACOUBLAY,7,VELIZY VILLACOUBLAY,FRANCE,78141,"VELIZY, 78141, FRANCE",VELIZY,"Hippopotamus Forest Hill Meudon Vélizy, 40, Avenue du Maréchal de Lattre de Tassigny, Le Parc de Chalais, Meudon-la-Forêt, Meudon, Boulogne-Billancourt, Hauts-de-Seine, Île-de-France, France métropolitaine, 92360, France",48.78461,2.2254946
+WORLDLINE,6,BEZONS,FRANCE,95870,"BEZONS, 95870, FRANCE",BEZONS,"Bezons, Argenteuil, Val-d'Oise, Île-de-France, France métropolitaine, 95870, France",48.9250016,2.2105491
+ISIA,6,JUILLAN,FRANCE,65290,"JUILLAN, 65290, FRANCE",JUILLAN,"Juillan, Tarbes, Hautes-Pyrénées, Occitanie, France métropolitaine, 65290, France",43.2011,0.024292
+ORANGE,6,PARIS CEDEX 15,FRANCE,75505,"PARIS, 75505, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+NATIXIS ASSET MANAGEMENT,6,PARIS CEDEX 13,FRANCE,75634,"PARIS, 75634, FRANCE",PARIS,"Paris, Île-de-France, France métropolitaine, France",48.8566101,2.3514992
+UNIVERSIDADE ESTADUAL PAULISTA - UNESP,6,SO PAULO,BRSIL,01049-010,"PAULO, 01049-010, BRSIL",PAULO,,-23.533773,-46.62529

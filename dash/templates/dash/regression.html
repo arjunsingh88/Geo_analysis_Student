@@ -1,0 +1,66 @@
+{% extends "dash/dash-base-temp.html" %}
+{% block content %}
+<!-- Content Row -->
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="card shadow">
+			<div class="card-header bg-dark text-white ">
+				<h5 class="m-0 font-weight-bold ">PAU REGRESSION MODEL FOR AVERAGE REMUNERATION </h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/regression/pau"></iframe>
+                </div>
+            </div>
+		</div>
+
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow">
+			<div class="card-header bg-dark text-white ">
+				<h5 class="m-0 font-weight-bold ">CERGY REGRESSION MODEL FOR AVERAGE RENUMERATION</h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/regression/cergy"></iframe>
+                </div>
+            </div>
+		</div>
+
+    </div>
+    <div class="col-md-6">
+        <br>
+        <div class="card shadow">
+			<div class="card-header bg-dark text-white ">
+				<h5 class="m-0 font-weight-bold ">PAU REGRESSION MODEL FOR AVERAGE ENROLLMENT</h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/regression/pau_enrollment"></iframe>
+                </div>
+            </div>
+		</div>
+
+    </div>
+    <div class="col-md-6">
+        <br>
+        <div class="card shadow">
+			<div class="card-header bg-dark text-white">
+				<h5 class="m-0 font-weight-bold ">CERGY REGRESSION MODEL FOR AVERAGE ENROLLMENT</h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/regression/cergy_enrollment"></iframe>
+                </div>
+            </div>
+		</div>
+
+    </div>
+
+
+
+</div>
+
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends "login/base_no_nav_bar.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="container-fluid reg-back">
+    <div class="row">
+ <div class="offset-md-4 col-md-4 offset-sm-2 col-sm-9">
+     <br>
+    <form method="POST" class="content-section-reg" style="border: 1px solid #00d114;">
+
+        {% csrf_token %}
+        <fieldset class="form_group">
+            <legend class="border-bottom "> Register As a User</legend>
+            {{ form|crispy}}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn btn-outline-success btn-md" type="submit">Register</button>
+        </div>
+         <div class="border-top pt-3">
+        <small class="text-muted">
+            Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Login</a>
+        </small>
+    </div>
+    </form>
+
+ </div>
+        <div/>
+</div>
+
+{% endblock content %}

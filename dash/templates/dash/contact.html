@@ -1,0 +1,23 @@
+{% extends "dash/dash-base-temp.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4 bg-dark text-gray-100">
+		<form method="POST" class="content-section-reg">
+		{% csrf_token %}
+		<fieldset class="form_group">
+			<legend class="border-bottom ">Contact Us</legend>
+			{{ form|crispy}}
+		</fieldset>
+		<div class="form-group">
+			<button class="btn btn btn-outline-warning btn-md" type="submit">Send Message</button>
+		</div>
+	</form>
+	</div>
+	<div class="col-md-8 bg-dark text-gray-100">
+		<div class="embed-responsive embed-responsive-16by9" >
+			<iframe class="embed-responsive-item"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1783.9843447758537!2d2.0684559877329285!3d49.03479149888969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6f5265bbc2f79%3A0x301dd6c7102e1852!2s%C3%89cole+internationale+des+sciences+du+traitement+de+l&#39;information!5e0!3m2!1sen!2sfr!4v1559166532134!5m2!1sen!2sfr" ></iframe>
+		</div>
+	</div>
+</div>
+{% endblock content %}

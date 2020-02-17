@@ -1,0 +1,814 @@
+<script>
+var endpoint = '/dash/api/chart/data/';
+
+var y_1314_INTERN_labels = [];
+var y_1314_INTERN_ING1 = [];
+var y_1314_INTERN_ING2 = [];
+var y_1314_INTERN_ING3 = [];
+var y_1314_ENROLL_labels = [];
+var y_1314_ENROLL_ING1 = [];
+var y_1314_ENROLL_ING2 = [];
+var y_1314_ENROLL_ING3 = [];
+var y_1314_Renu_labels = []
+var y_1314_ING2 =[]
+var y_1314_ING1 =[]
+var y_1314_ING3 =[]
+var c_data = [];
+var c_label = [];
+var p_data = [];
+var p_label = [];
+var map = [];
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data){
+        p_label = data.p_label
+        p_data = data.p_data
+        c_label = data.c_label
+        c_data = data.c_data
+        setChart()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data1){
+        y_1314_INTERN_labels = data1.y_1314_INTERN_labels
+        y_1314_INTERN_ING1 = data1.y_1314_INTERN_ING1
+        y_1314_INTERN_ING2 = data1.y_1314_INTERN_ING2
+        y_1314_INTERN_ING3 = data1.y_1314_INTERN_ING3
+        setChart1()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data4){
+        y_1314_ENROLL_labels = data4.y_1314_ENROLL_labels
+        y_1314_ENROLL_ING1 = data4.y_1314_ENROLL_ING1
+        y_1314_ENROLL_ING2 = data4.y_1314_ENROLL_ING2
+        y_1314_ENROLL_ING3 = data4.y_1314_ENROLL_ING3
+        setChart4()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data2){
+            y_1314_Renu_labels = data2.y_1314_Renu_labels
+            y_1314_ING1 = data2.y_1314_ING1
+            y_1314_ING2 = data2.y_1314_ING2
+            y_1314_ING3 = data2.y_1314_ING3
+
+
+		setChart2()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+
+
+
+function setChart(){
+Chart.defaults.global.defaultFontColor = 'black';
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: c_label,
+    datasets: [
+    {
+      label: 'CERGY',
+      data: c_data,
+      backgroundColor: [
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c',
+       '#003f5c'
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'PAU',
+      data: p_data,
+      backgroundColor: [
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090',
+        '#bc5090'
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+      ],
+      borderWidth: 1,
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+          maxRotation: 90,
+          minRotation: 80
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+}
+
+
+
+function setChart1(){
+Chart.defaults.global.defaultFontColor = 'black';
+var ctx = document.getElementById("myChart_intern1").getContext('2d');
+var myChart_intern1 = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: y_1314_INTERN_labels,
+    datasets: [
+    {
+      label: 'ING1',
+      data: y_1314_INTERN_ING1,
+      backgroundColor: [
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361',
+        '#ff6361'
+
+
+      ],
+      borderColor: [
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000'
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING2',
+      data: y_1314_INTERN_ING2,
+      backgroundColor: [
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600',
+     '#ffa600'
+
+      ],
+      borderColor: [
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000',
+      '#000'
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING3',
+      data: y_1314_INTERN_ING3,
+      backgroundColor: [
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d',
+        '#58508d'
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+      ],
+      borderWidth: 1,
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+          maxRotation: 90,
+          minRotation: 80
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+}
+
+
+function setChart2(){
+Chart.defaults.global.defaultFontColor = 'black';
+var ctx = document.getElementById("myChart_renu").getContext('2d');
+var myChart_renu = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: y_1314_Renu_labels,
+    datasets: [
+    {
+      label: 'ING1',
+      data: y_1314_ING1,
+      backgroundColor: [
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31',
+        '#488f31'
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING2',
+      data: y_1314_ING2,
+      backgroundColor: [
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b',
+       '#de425b'
+
+
+
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING3',
+      data: y_1314_ING3,
+      backgroundColor: [
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255',
+        '#f18255'
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+      ],
+      borderWidth: 1,
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+          maxRotation: 90,
+          minRotation: 80
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+}
+
+
+
+function setChart4(){
+Chart.defaults.global.defaultFontColor = 'black';
+var ctx = document.getElementById("myChart_enroll").getContext('2d');
+var myChart_renu = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: y_1314_ENROLL_labels,
+    datasets: [
+    {
+      label: 'ING1',
+      data:  y_1314_ENROLL_ING1,
+      backgroundColor: [
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e',
+        '#a6a73e'
+
+
+      ],
+      borderColor: [
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING2',
+      data:  y_1314_ENROLL_ING2,
+      backgroundColor: [
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b',
+     '#f5bc6b'
+
+
+
+      ],
+      borderColor: [
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000',
+       '#000'
+      ],
+      borderWidth: 1,
+    },
+    {
+      label: 'ING3',
+      data:  y_1314_ENROLL_ING3,
+      backgroundColor: [
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+        '#5499C7',
+
+
+      ],
+      borderColor: [
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000',
+        '#000'
+
+      ],
+      borderWidth: 1,
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+          maxRotation: 90,
+          minRotation: 80
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+}
+</script>
+

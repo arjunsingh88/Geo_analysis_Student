@@ -1,0 +1,174 @@
+<script>
+var endpoint = '/dash/api/chart/data/';
+
+var count_of_students_bar = [];
+var labels_bar = [];
+var count_of_students_pie = [];
+var labels_pie = [];
+
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data){
+        labels_bar = data.labels_bar
+        count_of_students_bar = data.count_of_students_bar
+        labels_pie = data.labels_pie
+        labels_pie.shift()
+        count_of_students_pie = data.count_of_students_pie
+        count_of_students_pie.shift()
+        setChart()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+
+function setChart(){
+var ctx = document.getElementById('myChart').getContext('2d');
+var ctx2 = document.getElementById('myChart1').getContext('2d');
+Chart.defaults.global.defaultFontColor = 'black';
+Chart.defaults.global.defaultFontSize = 10;
+var myChart = new Chart(ctx, {
+    type:
+    'bar',
+    data: {
+        labels: labels_bar,
+        datasets: [{
+            label: 'No. of students',
+            data: count_of_students_bar,
+            backgroundColor: [
+                '#133337',
+'#ff0000',
+'#ffd700',
+'#065535',
+'#40e0d0',
+'#ff7373',
+'#ffa500',
+'#dddddd',
+'#66cdaa',
+'#d3ffce',
+'#0000ff',
+'#00ced1',
+'#666666',
+'#101010',
+'#8b0000',
+'#8a2be2',
+'#ffe4e1',
+'#f08080',
+'#c0d6e4',
+'#66cccc',
+'#ccff00',
+'#ff1493',
+'#0099cc',
+'#f5f5dc'
+
+            ],
+            borderColor: [
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff'
+            ],
+            hoverBorderColor:[
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+                '#000',
+            ],
+            borderWidth: 1,
+
+
+
+        }]
+    },
+    options: {
+       legend: {
+            display: 'true',
+            position : 'right',
+
+        }
+
+    }
+});
+
+
+var myChart2 = new Chart(ctx2, {
+    type: 'doughnut',
+    data: {
+        labels: labels_pie,
+        datasets: [{
+
+
+            data: count_of_students_pie,
+            backgroundColor: [
+                                '#133337',
+'#ff0000',
+'#ffd700',
+'#065535',
+'#40e0d0',
+'#ff7373',
+'#ffa500',
+'#dddddd',
+'#66cdaa',
+'#d3ffce',
+'#0000ff',
+'#00ced1',
+'#666666',
+'#101010',
+'#8b0000',
+'#8a2be2',
+'#ffe4e1',
+'#f08080',
+'#c0d6e4',
+'#66cccc',
+'#ccff00',
+'#ff1493',
+'#0099cc',
+'#f5f5dc'
+            ],
+            borderColor: [
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff',
+                '#fff'
+            ],
+            borderWidth: 0,
+        }]
+    },
+    options: {
+        legend: {
+            display: true,
+            position : 'right',
+
+        }
+
+
+
+
+    }
+});
+}
+</script>
+

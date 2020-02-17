@@ -1,0 +1,98 @@
+{% extends "dash/dash-base-temp.html" %}
+{% block content %}
+<!-- Content Row -->
+
+<div class="row">
+
+	<div class="col-md-6 ">
+		<div class="card shadow">
+			<div class="card-header bg-dark  text-white">
+				<h5 class="m-0 font-weight-bold ">CERGY-PAU ( STUDENT INTERNSHIP ) </h5>
+			</div>
+			<div class="card-body">
+				<canvas id="myChart"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6 ">
+		<div class="card shadow">
+			<div class="card-header bg-dark  text-white">
+				<h5 class="m-0 font-weight-bold ">INTERNSHIP - ING1 ING2 ING3 </h5>
+			</div>
+			<div class="card-body">
+				<canvas id="myChart_intern1"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6 ">
+		<br>
+		<div class="card shadow">
+			<div class="card-header bg-dark  text-white">
+				<h5 class="m-0 font-weight-bold ">REMUNERATION - ING1 ING2 ING3</h5>
+			</div>
+			<div class="card-body">
+				<canvas id="myChart_renu"></canvas>
+			</div>
+		</div>
+	</div>
+
+		<div class="col-md-6 ">
+			<br>
+		<div class="card shadow">
+			<div class="card-header bg-dark  text-white ">
+				<h5 class="m-0 font-weight-bold ">ENROLLMENT - ING1 ING2 ING3</h5>
+			</div>
+			<div class="card-body">
+				<canvas id="myChart_enroll"></canvas>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	  <div class="col-md-6">
+		  <br>
+        <div class="card shadow">
+			<div class="card-header bg-dark  text-white  ">
+				<h5 class="m-0 font-weight-bold ">PROGRAMWISE INTERNSHIPS - PAU </h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/charts/graph"></iframe>
+                </div>
+            </div>
+		</div>
+    </div>
+	<div class="col-md-6">
+		<br>
+        <div class="card shadow">
+			<div class="card-header bg-dark  text-white ">
+				<h5 class="m-0 font-weight-bold ">PROGRAMWISE INTERNSHIPS - CERGY </h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/charts/graph_cergy"></iframe>
+                </div>
+            </div>
+		</div>
+	</div>
+
+
+	<div class="col-md-12">
+		<br>
+        <div class="card shadow">
+			<div class="card-header bg-dark  text-white  ">
+				<h5 class="m-0 font-weight-bold">TOP 10 RECRUITERS </h5>
+			</div>
+			<div class="card-body">
+                <div class="embed-responsive embed-responsive-16by9">
+				    <iframe class="embed-responsive-item" src="http://127.0.0.1:8000/dash/charts/recruiters"  ></iframe>
+                </div>
+            </div>
+	</div>
+</div>
+
+{% include "chart-script/dash-chart.html" %}
+{% endblock content %}

@@ -1,0 +1,38 @@
+from django.urls import path
+from . import views
+from .views import *
+
+urlpatterns = [
+    path('home/', views.home, name='dash-home'),
+    path('charts/', views.charts, name='dash-charts'),
+    path('tables_std/', views.tables_std, name='dash-tables-std'),
+    path('tables_clg/', views.tables_clg, name='dash-tables-clg'),
+    path('tables_intern/', views.tables_intern, name='dash-tables-intern'),
+    path('charts/graph/', views.graph, name='dash-graph-pau'),
+    path('charts/graph_cergy/', views.graph_cergy, name='dash-graph-cergy'),
+    path('charts/recruiters/', views.recruiters, name='dash-graph-recruiters'),
+    path('map_store_home/', views.map_store, name='dash-map-home'),
+    path('maps/', views.maps, name='dash-maps'),
+    path('map_store_home/', views.map_store, name='dash-map-home'),
+    path('map_store_route/', views.map_store_route, name='dash-map-route'),
+    path('map_store_route1/', views.map_store_route1, name='dash-map-route1'),
+    path('map_store_route2/', views.map_store_route2, name='dash-map-route2'),
+    path('map_store_kmeans_student_city/', views.map_store_kmeans_student_city, name='dash-map-kmeans-student-city'),
+    path('map_store_companies/', views.map_store_companies, name='dash-map-store-companies'),
+    path('piv/std/', views.piv_std, name='dash-piv-std'),
+    path('piv/clg/', views.piv_clg, name='dash-piv-clg'),
+    path('piv/intern/', views.piv_intern, name='dash-piv-intern'),
+    path('visual_std/', views.visual_std, name='dash-visu_std'),
+    path('visual_clg/', views.visual_clg, name='dash-visu_clg'),
+    path('visual_intern/', views.visual_intern, name='dash-visu_intern'),
+    path('regression/', views.regression, name='dash-reg'),
+    path('regression/pau/', views.reg_pau, name='dash-reg_pau'),
+    path('regression/cergy/', views.reg_cergy, name='dash-reg_pau'),
+    path('regression/pau_enrollment/', views.reg_pau_enrollment, name='dash-reg_pau'),
+    path('regression/cergy_enrollment/', views.reg_cergy_enrollment, name='dash-reg_pau'),
+    path('contact/', views.contact, name='dash-contact'),
+    path('profile/', views.profile, name='dash-profile'),
+    path('profile/pwd/', views.change_password, name='dash-password'),
+    path('api/chart/data/', ChartData.as_view()),
+    path('api/chart/filter/', ChartFilterData.as_view()),
+]

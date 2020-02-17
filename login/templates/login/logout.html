@@ -1,0 +1,12 @@
+{% extends "login/base_no_nav_bar.html" %}
+{% block content %}
+<h2>You have been logged out</h2>
+<div class="container">
+
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Login Again <a  href="{% url 'login' %}">Login Again here</a>
+        </small>
+    </div>
+</div>
+{% endblock content %}

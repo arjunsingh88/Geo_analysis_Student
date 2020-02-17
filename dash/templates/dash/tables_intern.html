@@ -1,0 +1,57 @@
+{% extends "dash/dash-base-temp.html" %}
+{% block content %}
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3 bg-dark text-white">
+              <h6 class="m-0 font-weight-bold ">INTERNSHIP DATA TABLE</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered table-striped text-dark" id="dataTable" width="100%" cellspacing="0">
+
+                  <thead>
+                    <tr>
+                      <th>STUDENT ID</th>
+                      <th>COURSE</th>
+                      <th>YEAR</th>
+                      <th>COMPANY NAME</th>
+                      <th>CITY</th>
+                      <th>COUNTRY</th>
+                      <th>SUBJECT</th>
+                      <th>PAY DETAILS</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                     <th>STUDENT ID</th>
+                      <th>COURSE</th>
+                      <th>YEAR</th>
+                      <th>COMPANY NAME</th>
+                      <th>CITY</th>
+                      <th>COUNTRY</th>
+                      <th>SUBJECT</th>
+                      <th>PAY DETAILS</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                  {% for post in posts %}
+                    <tr>
+                      <td>{{ post.id }}</td>
+                      <td>{{ post.Course }}</td>
+                      <td>{{ post.Year }}</td>
+                      <td>{{ post.Company_Name }}</td>
+                      <td>{{ post.City }}</td>
+                      <td>{{ post.Country }}</td>
+                      <td>{{ post.Subject }}</td>
+                      <td>{{ post.Pay_Details }}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+{% endblock content %}

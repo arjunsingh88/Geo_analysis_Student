@@ -1,0 +1,56 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{% static 'dash/images/favicon.ico' %}" />
+
+    {% if title %}
+    <title>GeoStat - {{ title }}</title>
+    {% else %}
+    <title>GeoStat</title>
+    {% endif %}
+     <!-- FIXED CSS -->
+    <link href="{% static 'login/css/home_particle.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'login/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'login/css/style.css' %}" rel="stylesheet" type="text/css">
+    <!-- FIXED CSS END -->
+    <!-- NEW CSS START -->
+    <link href="#" rel="stylesheet" type="text/css">
+    <link href="#" rel="stylesheet" type="text/css">
+    <link href="#" rel="stylesheet" type="text/css">
+    <link href="#" rel="stylesheet" type="text/css">
+    <!-- NEW CSS END -->
+
+</head>
+
+<body style="background-color:#000;">
+   {% if messages %}
+      {% for message in messages %}
+             <div class="offset-md-3 col-md-6" style="z-index:9;" >
+              <div class="alert alert-{{ message.tags }} alert-dismissible" >
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                   <strong>{{ message }}</strong>
+              </div>
+                 </div>
+       {% endfor %}
+    {% endif %}
+    {% block content %} {% endblock %}
+   <!-- fixed JAVASCRIPT -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="{% static 'login/js/particle.js' %}"></script>
+   <script src="{% static 'login/js/bootstrap.min.js' %}"></script>
+   <script src="{% static 'login/js/home_particle.js' %}"></script>
+ <!-- fixed JAVASCRIPT ENDHERE -->
+
+ <!-- NEW JAVASCRIPT ADD HERE PLEASE -->
+    <script src="#"></script>
+    <script src="#"></script>
+    <script src="#"></script>
+    <script src="#"></script>
+ <!-- NEW JAVASCRIPT ADD HERE END -->
+</body>
+</html>

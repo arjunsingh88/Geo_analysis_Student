@@ -1,0 +1,294 @@
+{% load static %}
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="{% static 'dash/chartjs/js/Chart.min.js' %}"></script>
+</head>
+<body>
+	  <label >Choose Year</label>
+
+		 	<select id="category_faq">
+	             <option value="1">2013/2014</option>
+	             <option value="2">2014/2015</option>
+	             <option value="3">2015/2016</option>
+	             <option value="4">2016/2017</option>
+	             <option value="5">2017/2018</option>
+	        </select>
+        </div>
+         <div> <canvas id="chart1"></canvas></div>
+
+<script type="text/javascript">
+
+var endpoint = '/dash/api/chart/filter/';
+
+var y_1314_company_labels = []
+var y_1415_company_labels = []
+var y_1516_company_labels = []
+var y_1617_company_labels = []
+var y_1718_company_labels = []
+var y_1314_company_counts = []
+var y_1415_company_counts = []
+var y_1516_company_counts = []
+var y_1617_company_counts =[]
+var y_1718_company_counts =[]
+$.ajax({
+    method: "GET",
+    url: endpoint,
+    success: function(data){
+        y_1314_company_labels = data.y_1314_company_labels
+        y_1415_company_labels = data.y_1415_company_labels
+        y_1516_company_labels = data.y_1516_company_labels
+        y_1617_company_labels = data.y_1617_company_labels
+        y_1718_company_labels = data.y_1718_company_labels
+
+        y_1314_company_counts = data.y_1314_company_counts
+        y_1415_company_counts = data.y_1415_company_counts
+        y_1516_company_counts = data.y_1516_company_counts
+        y_1617_company_counts = data.y_1617_company_counts
+        y_1718_company_counts = data.y_1718_company_counts
+
+		setChart()
+    },
+    error: function(error_data){
+        console.log("error")
+        console.log(error_data)
+    }
+})
+
+function setChart(){
+// ************************************CHART 13-14*****************************************************
+        var ctx1 = document.getElementById("chart1").getContext("2d");
+   	 var data1 = {
+        labels: y_1314_company_labels,
+        datasets: [
+            {
+
+                fillColor: "#f08080",
+                strokeColor: "#000",
+                pointColor: "rgba(34,186,160,1)",
+                pointStrokeColor: "#000",
+                pointHighlightFill: "#000",
+                pointHighlightStroke: "rgba(18,175,203,1)",
+                data:  y_1314_company_counts
+            },
+
+        ]
+    };
+
+// ************************************CHART 14-15*****************************************************
+
+      var ctx2 = document.getElementById("chart1").getContext("2d");
+    var data2 = {
+        labels: y_1415_company_labels,
+        datasets: [
+            {
+
+                fillColor: "#d9ad7c",
+                strokeColor: "#000",
+                pointColor: "rgba(34,186,160,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(18,175,203,1)",
+                data: y_1415_company_counts
+            },
+             ]
+
+    };
+
+// ************************************CHART 15-16*****************************************************
+
+     var ctx3 = document.getElementById("chart1").getContext("2d");
+    var data3 = {
+        labels: y_1516_company_labels,
+        datasets: [
+            {
+
+                fillColor: "#86af49",
+                strokeColor: "#000",
+                pointColor: "rgba(34,186,160,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(18,175,203,1)",
+
+                data: y_1516_company_counts
+            },
+        ]
+    };
+// ************************************CHART 16-17*****************************************************
+ var ctx4 = document.getElementById("chart1").getContext("2d");
+    var data4 = {
+        labels: y_1617_company_labels,
+        datasets: [
+            {
+
+                fillColor: "#36486b",
+                strokeColor: "#000",
+                pointColor: "rgba(34,186,160,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(18,175,203,1)",
+
+                data: y_1617_company_counts
+            },
+        ]
+    };
+// ************************************CHART 17-18*****************************************************
+var ctx5 = document.getElementById("chart1").getContext("2d");
+    var data5 = {
+        labels: y_1718_company_labels,
+        datasets: [
+            {
+
+                fillColor: " #ffcc5c",
+                strokeColor: "#000",
+                pointColor: "rgba(34,186,160,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(18,175,203,1)",
+
+                data: y_1718_company_counts
+            },
+        ]
+    };
+
+
+// ************************************ CHART *****************************************************
+     var chart1 = new Chart(ctx1).Bar(data1, {
+
+        scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+    });
+
+$('#category_faq').change(function(){
+    var val = $(this).val();
+    if(val==1)
+    {
+        chart1.destroy();
+         chart1 = new Chart(ctx1).Bar(data1, {
+         scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+
+
+    });
+    }
+    else if(val==2)
+    {
+        chart1.destroy();
+         chart1 = new Chart(ctx2).Bar(data2, {
+			scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+
+
+    });
+    }
+    else if(val==3)
+    {
+        chart1.destroy();
+        chart1 = new Chart(ctx3).Bar(data3, {
+			scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+
+    });
+    }
+    else if(val==4)
+    {
+        chart1.destroy();
+        chart1 = new Chart(ctx4).Bar(data4, {
+
+        scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+    });
+    }
+    else if(val==5)
+    {
+        chart1.destroy();
+        chart1 = new Chart(ctx5).Bar(data5, {
+
+        scaleShowGridLines : true,
+        scaleGridLineColor : "rgba(0,0,0,.05)",
+        scaleGridLineWidth : 1,
+        scaleShowHorizontalLines: true,
+        scaleShowVerticalLines: true,
+        bezierCurve : true,
+        bezierCurveTension : 0.4,
+        pointDot : true,
+        pointDotRadius : 4,
+        pointDotStrokeWidth : 1,
+        pointHitDetectionRadius : 20,
+        datasetStroke : true,
+        datasetStrokeWidth : 2,
+        datasetFill : true,
+        responsive: true
+    });
+    }
+})
+}
+</script>
+
+</body>
+</html>
